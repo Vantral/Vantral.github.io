@@ -7,13 +7,19 @@
 }
 
 @font-face {
-  font-family: 'Open-Sans';
-  src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf'),
-       url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+  font-family: 'Literata';
+  src: url('../fonts/Literata-Regular.ttf'),
+       url('../fonts/Literata-Bold.ttf'),
+       url('../fonts/Literata-BoldItalic.ttf'),
+       url('../fonts/Literata-Italic.ttf'),
+       url('../fonts/Literata-Medium.ttf'),
+       url('../fonts/Literata-MediumItalic.ttf'),
+       url('../fonts/Literata-SemiBold.ttf'),
+       url('../fonts/Literata-SemiBoldItalic.ttf');
 }
 
 body {
-  font-family: 'Open-Sans';
+  font-family: 'Literata';
 }
 
 .left {
@@ -27,5 +33,62 @@ body {
 }
 
 .nav-item {
-  padding: 0.5em;
+  margin: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+a {
+  color: black;
+  font-family: monospace, monospace;
+}
+
+a:hover {
+  color: crimson;
+}
+
+.current {
+  border-bottom: 0.1em solid crimson;
+  text-decoration: none;
+  color: crimson;
+}
+
+.navbar li:hover {
+  border-bottom: 0.1em solid crimson;
+  text-decoration: none;
+  color: crimson;
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: xx-large;
+  margin-bottom: 1em;
+}
+
+h2, h3 {
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+h3 {
+  margin-top: 1em;
+}
+
+td {
+  padding-bottom: 1em;
+}
+
+.contacts div, .position {
+  margin-bottom: 0.5em;
+}
+
+td:first-child {
+  font-weight: bold
 }
