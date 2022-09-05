@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+@font-face {
+  font-family: 'Open-Sans';
+  src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf'),
+       url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+* {
+  font-family: 'Josefin Sans', sans-serif !important;   
+}
